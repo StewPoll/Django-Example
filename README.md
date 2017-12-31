@@ -10,6 +10,7 @@ Pull requests are welcome, especially if you want to actually make this
 app do something (ie, a simply blog)
 
 ## Requirements
+- A MySQL server (running locally, or otherwise accessible)
 - Python 3.6+
 - django 2+
 - django-mysql
@@ -27,4 +28,5 @@ Quick instructions until such time:
 - `pip install -r requirements.txt`
 - `python manage.py makemigrations`
 - `python manage.py migrate`
+- `python manage.py createsuperuser`
 - `python manage.py runserver`
