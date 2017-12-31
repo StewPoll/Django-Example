@@ -1,0 +1,5 @@
+django >= 2
+django-mysql
+gunicorn
+mysqlclient
+python-env
